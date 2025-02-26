@@ -7,3 +7,18 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+
+# -------------- Creation de restaurants -------------------
+
+puts "Creating restaurants"
+Restaurant.create!(name: "Chez Moi", address: "Lille", category: "chinese")
+puts "Create Chez Moi"
+Restaurant.create!(name: "Chez Toi", address: "Paris", category: "italian")
+puts "Create Chez Toi"
+Restaurant.create!(name: "Chez Lui", address: "Toulouse", category: "japanese")
+puts "Create Chez Lui"
+Restaurant.create!(name: "Chez Elle", address: "Nantes", category: "french")
+puts "Create Chez Elle"
+Restaurant.create!(name: "Chez Elle.eux", address: "Marseille", category: "belgian")
+puts "Create Chez Elle.eux"
